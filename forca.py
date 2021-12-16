@@ -58,7 +58,7 @@ def messagem_vencedor():
         print("        '-------'       ")
 
 def messagem_perdedor(palavra_secreta):
-        print("Puxa, você foi enforcado!")
+        print("Você foi enforcado!")
         print("A palavra era {}".format(palavra_secreta))
         print("    _______________         ")
         print("   /               \       ")
@@ -77,7 +77,7 @@ def messagem_perdedor(palavra_secreta):
         print("     \_         _/         ")
         print("       \_______/           ")
 
-#forca quando errar
+#forca quando errar uma palavra
 def desenha_forca(erros):
     print("  _______     ")
     print(" |/      |    ")
